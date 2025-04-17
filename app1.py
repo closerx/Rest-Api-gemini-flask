@@ -2,7 +2,7 @@ from flask import Flask, jsonify, request
 import google.generativeai as genai
 
 app = Flask(__name__)
-
+#by query url
 def myAi(text):
     genai.configure(api_key="AIzaSyCDa2GiUWGd8FA47UAZhw_1zWKTGsMAefA")
     model = genai.GenerativeModel(model_name='gemini-1.5-flash')
