@@ -67,7 +67,7 @@ def ask_question(message):
 
 @app.route('/')
 def home():
-    return """'<h1>Gemini Flask API</h1>"""
+    return """'<h1>Gemini Flask API by Hadi Hakami</h1>"""
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=5000)
